@@ -1,0 +1,16 @@
+pages:
+
+- title: Anne
+  url: anne.html
+
+- title: CV
+  url: cv.html
+
+- title: Kuvia
+  url: kuvia.html
+
+- title: Laulunopetus
+  url: laulunopetus.html
+
+- title: Ota yhteyttä
+  url: contact.html
