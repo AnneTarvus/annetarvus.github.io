@@ -2,9 +2,11 @@ body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMac
 
 .wrapper .sidebar { position: fixed; width: 20%; height: 100%; overflow: auto; }
 
-.homeimg { object-fit: fill; }
+.homeimg-container { overflow: hidden; height: auto; position: fixed; min-width: 100%; margin-top: -10px; }
 
-.profileimg { object-fit: cover; margin-left: 20px; }
+.homeimg { object-fit: cover; min-width: 80%; height: auto; margin-top: -15%; }
+
+.profileimg { object-fit: cover; width: 100%; height: 300px; }
 
 .wrapper .sidebar a { text-decoration: none; }
 
@@ -14,6 +16,6 @@ body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMac
 
 .wrapper .sidebar .item { text-align: center; }
 
-.wrapper .main-content { margin-left: 20%; }
+.wrapper .main-content { margin-left: 20%; height: 100%; }
 
 /*# sourceMappingURL=main.css.map */
