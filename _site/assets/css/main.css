@@ -1,5 +1,7 @@
 body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
+a { all: unset; cursor: pointer; }
+
 .wrapper .sidebar { position: fixed; width: 20%; height: 100%; overflow: auto; }
 
 .homeimg-container { overflow: hidden; height: auto; position: fixed; min-width: 100%; margin-top: -10px; }

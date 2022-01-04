@@ -9,6 +9,11 @@ body {
   font-family: $bodyFont;
 }
 
+a {
+  all: unset;
+  cursor: pointer;
+}
+
 .wrapper .sidebar {
   position: fixed;
   width: $sidebarWidth;
