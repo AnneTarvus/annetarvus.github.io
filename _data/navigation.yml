@@ -6,8 +6,8 @@ pages:
 - title: CV
   url: cv.html
 
-- title: Kuvia
-  url: kuvia.html
+# - title: Kuvia
+#   url: kuvia.html
 
 - title: Laulunopetus
   url: laulunopetus.html
