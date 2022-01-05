@@ -2,6 +2,7 @@
 layout: anne
 title: "Anne"
 permalink: /anne
+image: "assets/img/7.jpg"
 header: "Moi! Mä oon Anne"
 caption: "Kiva, kun löysit mun sivulle. Täällä kerron, kuka mä oon."
 ---
