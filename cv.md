@@ -2,6 +2,8 @@
 layout: cv
 title: "CV"
 permalink: /cv
+image: /assets/img/leikattu2.jpg
+imageHeight: 400px
 header: "Täällä pääset tutustumaan mun työnäytteisiin sekä työ- ja koulutustaustaan. Sivun lopusta saat ladattua mun CV:n."
 ---
 

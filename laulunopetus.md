@@ -21,4 +21,5 @@ Opetan kotonani Tampereen Annalassa. Halutessasi voin pitää myös etätunteja 
 
 ### Hinnat
 55 min 45 €
+
 10 x 55 min 420 €
