@@ -64,7 +64,7 @@ a {
   height: 97%;
   width: 79%;
   position: absolute;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .columns {
@@ -81,7 +81,7 @@ a {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/leikattu.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/leikattu.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,8 +97,13 @@ a {
   position: absolute;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 1.3em;
 }
 
-.hero-text h1 {
-  font-size: 3em;
-}
+// .hero-text h1 {
+//   font-size: 3em;
+// }
+
+// .hero-text p {
+//   font
+// }
