@@ -2,7 +2,7 @@
 layout: default
 ---
 {% if page.image %}
-    <img class="heroimg" src="{{ page.image }}" height="{{ page.imageHeight }}" alt="Anne Tarvus">
+    <img class="heroimg" src="{{ page.image }}" height="{{ page.imageHeight | default: "300px" }}" alt="Anne Tarvus">
 {% endif %}
 <h1> {{ page.header }} </h1>
 <h1> {{ page.caption }} </h1>
