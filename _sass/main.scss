@@ -41,6 +41,7 @@ aside {
 
 .hero-text {
   color: white;
+  text-align:  center;
 }
 
 @media (max-width: 500px) {
@@ -67,32 +68,10 @@ aside {
   
 }
 
-// .wrapper .sidebar {
-//   display: flex;
-//   flex-direction: column;
-//   width: 20%;
-// }
-
-// .wrapper .main-content {
-//   margin-left: $sidebarWidth;
-//   top: 0;
-//   height: 100%;
-//   position: relative;
-//   overflow: hidden;
-// }
-
-// h1 {
-//   font-size: 4em;
-// }
-
-// .caption {
-//   font-size: 2em;
-// }
-
-// .heroimg {
-//   object-fit: cover;
-//   width: 100%;
-// }
+.pageheroimage {
+  object-fit: cover;
+  width: 100%;
+}
 
 // .wrapper .sidebar a {
 //   text-decoration: none;
