@@ -2,15 +2,16 @@ $backgroundColor: #ffffff;
 $bodyColor: #424242;
 $captionColor: #696969;
 $sidebarWidth: 20%;
-$font-family: 'Cormorant', serif;
-// font-family: 'Open Sans', sans-serif;
-// font-family: 'Playfair Display', serif;
-// font-family: 'PT Serif', serif;
+// $font-family: 'Cormorant', serif;
+// $font-family: 'Open Sans', sans-serif; // Caption font ja ehkä linkit?
+// $font-family: 'Playfair Display', serif; // Ehkä CV?
+$font-family: 'PT Serif', serif;
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $font-family;
+  // letter-spacing: 0.05em;
   overflow: hidden;
   height: 100vh;
 }
