@@ -7,7 +7,6 @@ header: "Moi! Mä oon Anne"
 caption: "Kiva, kun löysit mun sivulle. Täällä kerron, kuka mä oon."
 ---
 
- 
 ### Taiteilija
 Mä nautin taiteesta sekä tekijänä että kuluttajana. Rakkain taidelaji mulle on musiikkiteatteri. Siinä yhdistyy monta ihanaa asiaa: teatteri, musiikki ja tanssi. Ah, jes! Olen täysin hurahtanut myös kynsitaiteeseen; se on tosi kivaa pikkutarkkaa näpertämistä!
 
