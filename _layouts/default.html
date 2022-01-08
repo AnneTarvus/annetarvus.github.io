@@ -12,17 +12,28 @@
   <body>
     <div class="wrapper">
       <aside>
-        <!-- Items in navigation menu -->
-        <ul>
-          <li>
-            <a id="home" href="{{ site.url }}">{{ site.title }}</a>
-          </li>
+        <a id="home" href="{{ site.url }}">
+          <img id="logo" src="assets/img/logo.png"/>
+        </a>
+        <div class="container" onclick="myFunction(this)"> <div class="bar1"></div> <div class="bar2"></div> <div class="bar3"></div>
+        </div>
+        <!-- Navigation links -->
+        <div id="links">
           {% for item in site.data.navigation.pages %}
-            <li>
-                <a href="{{ item.url }}">{{ item.title }}</a>
-            </li>
+              <a href="{{ item.url }}">{{ item.title }}</a>
           {% endfor %}
-        </ul>
+        </div>
+        <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+          var x = document.getElementById("links");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+      </script>
       </aside>
       <!-- actual content -->
       <main>
