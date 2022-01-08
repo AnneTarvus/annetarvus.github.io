@@ -15,14 +15,13 @@
         <a id="home" href="{{ site.url }}">
           <img id="logo" src="assets/img/logo.png"/>
         </a>
-        <div class="container" onclick="myFunction(this)"> <div class="bar1"></div> <div class="bar2"></div> <div class="bar3"></div>
-        </div>
         <!-- Navigation links -->
         <div id="links">
           {% for item in site.data.navigation.pages %}
               <a href="{{ item.url }}">{{ item.title }}</a>
           {% endfor %}
         </div>
+        <div class="container" onclick="myFunction(this)"> <div class="bar1"></div> <div class="bar2"></div> <div class="bar3"></div> </div>
         <script>
         /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
         function myFunction() {
