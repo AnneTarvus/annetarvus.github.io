@@ -1,74 +1,37 @@
 $backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyColor: #424242;
+$captionColor: #696969;
 $sidebarWidth: 20%;
-$font-family: 'Noto Sans', sans-serif;
+// $font-family: 'Cormorant', serif;
+// $font-family: 'Open Sans', sans-serif; // Caption font ja ehkä linkit?
+// $font-family: 'Playfair Display', serif; // Ehkä CV?
+$font-family: 'PT Serif', serif;
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $font-family;
+  // letter-spacing: 0.05em;
+  overflow: hidden;
+  height: 100vh;
+}
+main {
+  overflow-y: auto;
+  min-width: 85%;
+  flex-grow: 15;
+}
+
+aside {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 10%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
   height: 100%;
-}
-
-a {
-  all: unset;
-  cursor: pointer;
-}
-
-.wrapper .sidebar {
-  position: fixed;
-  width: $sidebarWidth;
-  height: 100%;
-  overflow: auto;
-}
-
-// .homeimg-container {
-//   overflow: hidden;
-//   height: auto;
-//   position: fixed;
-//   min-width: 100%;
-//   margin-top: -10px;
-// }
-
-// .homeimg {
-//   object-fit: cover;
-//   min-width: 80%;
-//   height: auto;
-//   margin-top: -15%;
-// }
-
-.heroimg {
-  object-fit: cover;
-  width: 100%;
-}
-
-.wrapper .sidebar a {
-  text-decoration: none;
-}
-
-.wrapper .sidebar .title {
-  text-align: center;
-}
-
-.wrapper .sidebar .links {
-  margin-top: 40%;
-}
-
-.wrapper .sidebar .item {
-  text-align: center;
-}
-
-.wrapper .main-content {
-  margin-left: $sidebarWidth;
-  height: 97%;
-  width: 79%;
-  position: absolute;
-  overflow: auto;
-}
-
-.columns {
-  column-count: 2;
 }
 
 .showreel {
@@ -76,34 +39,106 @@ a {
   height: 324px;
 }
 
-.columns .break {
-  break-before: column
+#logo {
+  width: 100%;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/leikattu.jpg");
-  background-position: top;
+  display: flex;
+  flex-direction: column;
+  // background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/leikattu.jpg");
+  background-image: url("../img/leikattu.jpg");
+  height: 100%;
+  align-self: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  height: 100%;
-  overflow: visible;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-text {
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
   color: white;
-  font-size: 1.3em;
+  text-align:  center;
 }
 
-// .hero-text h1 {
-//   font-size: 3em;
-// }
+.pageheroimage {
+  object-fit: cover;
+  width: 100%;
+}
 
-// .hero-text p {
-//   font
-// }
+#links {
+  flex-grow: 15;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.caption {
+  font-size: 1.2rem;
+  color: $captionColor;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h1:after {
+  content: "";
+  display: block;
+  height: 0.0625rem;
+  width: 3.75rem;
+  position: relative;
+  left: 0;
+  background: #9d9d9d;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  aside {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 15;
+    flex-basis: 5%;
+    justify-content: space-between;
+  }
+  main {
+    flex-grow: 15;
+  }
+  ul {
+    // display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero-image {
+    background-position: center center;
+  }
+  #links {
+    overflow: hidden;
+    display: none;
+  }
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 15px;
+    height: 1px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
+  }
+
+  #logo {
+    width: 100px;
+  }
+}

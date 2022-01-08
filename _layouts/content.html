@@ -2,10 +2,17 @@
 layout: default
 ---
 {% if page.image %}
-    <img class="heroimg" src="{{ page.image }}" height="{{ page.imageHeight | default: "300px" }}" alt="Anne Tarvus">
+    <img class="pageheroimage" src="{{ page.image }}" height="{{ page.imageHeight | default: "300px" }}" alt="Anne Tarvus">
 {% endif %}
-<h1> {{ page.header }} </h1>
-<h1> {{ page.caption }} </h1>
+{% if page.header %}
+<h1>
+    {{ page.header }}
+</h1>
+{% endif %}
+<p class="caption"> {{ page.caption }} </p>
 <div>
     {{content}}
 </div>
+{% if page.cv %}
+    <a href="/assets/pdf/CV_Anne_Tarvus.pdf">CV (pdf)</a>
+{% endif %}

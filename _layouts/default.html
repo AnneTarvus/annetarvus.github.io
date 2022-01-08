@@ -7,27 +7,37 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Open+Sans&family=PT+Serif&family=Playfair+Display&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
-      <div class="sidebar">
-        <h2 class="title">
-          <a href="{{ site.url }}">{{ site.title }}</a>
-        </h2>
-        <!-- Items in navigation menu -->
-        <div class=links>
+      <aside>
+        <a id="home" href="{{ site.url }}">
+          <img id="logo" src="assets/img/logo.png"/>
+        </a>
+        <!-- Navigation links -->
+        <div id="links">
           {% for item in site.data.navigation.pages %}
-            <h3 class="item">
-                <a href="{{ item.url }}">{{ item.title }}</a>
-            </h3>
+              <a href="{{ item.url }}">{{ item.title | upcase }}</a>
           {% endfor %}
         </div>
-      </div>
+        <div class="container" onclick="myFunction(this)"> <div class="bar1"></div> <div class="bar2"></div> <div class="bar3"></div> </div>
+        <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+          var x = document.getElementById("links");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+      </script>
+      </aside>
       <!-- actual content -->
-      <div class="main-content">
+      <main>
         {{ content }}
-      </div>
+      </main>
     </div>
   </body>
 </html>
