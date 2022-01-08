@@ -1,5 +1,5 @@
 ---
-layout: anne
+layout: content
 title: "Anne"
 permalink: /anne
 image: "assets/img/7.jpg"

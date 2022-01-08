@@ -71,6 +71,9 @@ aside {
   justify-content: center;
   height: 100%;
 }
+a {
+  text-decoration: none;
+}
 
 @media (max-width: 500px) {
   .wrapper {
@@ -116,6 +119,3 @@ aside {
     width: 100px;
   }
 }
-// .columns .break {
-//   break-before: column
-// }

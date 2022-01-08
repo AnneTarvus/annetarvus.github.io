@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: content
 title: "CV"
 permalink: /cv
 image: /assets/img/leikattu2.jpg
