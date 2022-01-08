@@ -5,6 +5,7 @@ permalink: /cv
 image: /assets/img/leikattu2.jpg
 imageHeight: 400px
 caption: "Täällä pääset tutustumaan mun työnäytteisiin sekä työ- ja koulutustaustaan. Sivun lopusta saat ladattua mun CV:n."
+cv: true
 ---
 
 <iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
