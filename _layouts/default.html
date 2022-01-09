@@ -18,7 +18,7 @@
         <!-- Navigation links -->
         <div id="links">
           {% for item in site.data.navigation.pages %}
-              <a href="{{ item.url }}">{{ item.title | upcase }}</a>
+              <a class="link" href="{{ item.url }}">{{ item.title | upcase }}</a>
           {% endfor %}
         </div>
         <div class="container" onclick="myFunction(this)"> <div class="bar1"></div> <div class="bar2"></div> <div class="bar3"></div> </div>
