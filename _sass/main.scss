@@ -46,8 +46,8 @@ aside {
 .hero-image {
   display: flex;
   flex-direction: column;
-  // background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/leikattu.jpg");
-  background-image: url("../img/leikattu.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25)), url("../img/leikattu.jpg");
+  // background-image: url("../img/leikattu.jpg");
   height: 100%;
   align-self: center;
   background-repeat: no-repeat;
@@ -67,6 +67,10 @@ aside {
   width: 100%;
 }
 
+.pagecontent {
+  margin-left: 20px;
+}
+
 #links {
   flex-grow: 15;
   overflow: hidden;
@@ -76,8 +80,10 @@ aside {
   justify-content: center;
   height: 100%;
 }
-a {
+
+a, a:visited {
   text-decoration: none;
+  color: $bodyColor;
 }
 
 .caption {
