@@ -1,6 +1,6 @@
 $backgroundColor: #ffffff;
 $bodyColor: #424242;
-$captionColor: #696969;
+$captionColor: #9d9d9d;
 $sidebarWidth: 20%;
 $font-family: 'Open Sans', sans-serif; // Caption font ja ehkä linkit?
 // $font-family: 'Playfair Display', serif; // peet ainakin tätä
@@ -95,10 +95,13 @@ a, a:visited {
 .caption {
   font-size: 1.2rem;
   color: $captionColor;
+  margin-top: 0;
 }
 
 h1 {
   font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 h1:not(.hero-header):after {
   content: "";
@@ -110,6 +113,11 @@ h1:not(.hero-header):after {
   background: #9d9d9d;
 }
 
+h3 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
 .pictures {
   display: flex;
   flex-direction: row;
@@ -118,7 +126,6 @@ h1:not(.hero-header):after {
 
 .img-hover-zoom {
   margin: 0 5% 5% 0;
-  
   height: 200px;
   width: 150px;
   overflow: hidden;

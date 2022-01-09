@@ -49,6 +49,7 @@ cv: true
 * **2012** Paljaat. Rooli: useita rooleja - Ohj. Kaisa Nissi / Jyväskylän ylioppilasteatteri
 
 # Kurssit
+* **2022** Ammattina ääninäyttelijä, opettajana Mia Renwall
 * **2021** Löydä oma lauluvoimasi, opettajana Arla Salo
 * **2021** Puhetekniikan ja äänenkäytön perusteet, Tampereen yliopisto
 
