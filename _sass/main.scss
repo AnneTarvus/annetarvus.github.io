@@ -21,9 +21,9 @@ main {
 }
 
 aside {
-  flex-grow: 1;
+  flex-grow: 0;
   flex-shrink: 0;
-  flex-basis: 10%;
+  flex-basis: 15%;
   justify-content: space-between;
   flex-direction: column;
   background-image: url("../img/45degree_fabric.png");
@@ -81,6 +81,10 @@ aside {
   height: 100%;
 }
 
+.link {
+  margin: 8px;
+}
+
 a, a:visited {
   text-decoration: none;
   color: $bodyColor;
@@ -94,7 +98,7 @@ a, a:visited {
 h1 {
   font-size: 3rem;
 }
-h1:after {
+h1:not(.hero-header):after {
   content: "";
   display: block;
   height: 0.0625rem;
@@ -103,6 +107,27 @@ h1:after {
   left: 0;
   background: #9d9d9d;
 }
+
+.pictures {
+  flex-direction: column;
+}
+
+.pictures li {
+  float: left;
+  display: block;
+  margin: 0 0 1% 1%;
+  // width: 19%;
+  padding-bottom: 19%;
+  position: relative;
+}
+
+li img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+
 
 @media (max-width: 500px) {
   .wrapper {
