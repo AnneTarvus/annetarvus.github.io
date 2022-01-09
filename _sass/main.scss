@@ -68,6 +68,8 @@ aside {
 }
 
 .pagecontent {
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
 }
 
@@ -109,25 +111,27 @@ h1:not(.hero-header):after {
 }
 
 .pictures {
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.pictures li {
-  float: left;
-  display: block;
-  margin: 0 0 1% 1%;
-  // width: 19%;
-  padding-bottom: 19%;
-  position: relative;
+.img-hover-zoom {
+  margin: 0 5% 5% 0;
+  
+  height: 200px;
+  width: 150px;
+  overflow: hidden;
 }
 
-li img {
-  width: 10rem;
-  height: 10rem;
+.img-hover-zoom img {
+  transition: transform .5s ease;
   object-fit: cover;
 }
 
-
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
 
 @media (max-width: 500px) {
   .wrapper {
