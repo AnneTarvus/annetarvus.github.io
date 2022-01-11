@@ -2,8 +2,8 @@ $backgroundColor: #ffffff;
 $bodyColor: #424242;
 $captionColor: #9d9d9d;
 $sidebarWidth: 20%;
-$font-family: 'Open Sans', sans-serif; // Caption font ja ehkä linkit?
-// $font-family: 'Playfair Display', serif; // peet ainakin tätä
+$font-family: 'Open Sans', sans-serif;
+$header-font-family: 'Playfair Display', serif;
 
 body {
   background: $backgroundColor;
@@ -103,6 +103,7 @@ h1 {
   font-size: 3rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-family: $header-font-family;
 }
 h1:not(.hero-header):after {
   content: "";
