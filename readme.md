@@ -8,3 +8,23 @@
 6. Kirjoita komento `git add *` lisätäksesi muutokset versionhallintaan
 7. Kirjoita komento `git commit -m "Viesti mitä muutettu"`
 8. Kirjoita komento `git push` viedäksesi commitatut muutokset liveen
+
+## Markdown ohjeet
+### Otsikot
+```markdown
+# Iso otsikko
+## Keskikokoinen otsikko
+### Pieni otsikko
+```
+### Listat
+* asia
+* toinen
+
+1. numeroitu
+2. toinen
+### Linkit
+[Teksti](www.linkki.com)
+### Tekstiefektit
+**Lihavointi**
+*Kursivointi*
+~~Yliviivaus~~
