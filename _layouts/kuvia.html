@@ -4,6 +4,7 @@ layout: content
 
 <div class="gallery">
     {% for imageGallery in site.data.gallery.images %}
+    <p>{{ imageGallery.caption }}</p>
         <div class="pictures">
         {% for image in imageGallery.images %}
         <div class="img-hover-zoom">
@@ -17,6 +18,5 @@ layout: content
         </div>
         {% endfor %}
         </div>
-    <p class="caption">{{ imageGallery.caption }}</p>
     {% endfor %}
 </div>
