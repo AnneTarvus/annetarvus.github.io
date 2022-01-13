@@ -72,7 +72,7 @@ aside {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 #links {
@@ -151,6 +151,10 @@ h3 {
 
 .img-hover-zoom:hover img {
   transform: scale(1.2);
+}
+
+.columns {
+  column-count: 2;
 }
 
 @media (max-width: 500px) {
