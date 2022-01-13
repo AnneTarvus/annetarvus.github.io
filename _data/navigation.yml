@@ -1,4 +1,6 @@
 pages:
+- title: Etusivu
+  url: /
 
 - title: Anne
   url: anne
