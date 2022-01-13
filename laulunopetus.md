@@ -12,7 +12,10 @@ Kaikilla on olemassa laulamiseen tarvittavat lihakset. Lihakset oppivat uusia li
 ### Opi rakastamaan omaa ääntäsi
 Sinulla on uniikki ääni, jota kenelläkään muulla ei ole. Opi nauttimaan sen resonanssista kehossa ja löydä ilo omasta persoonallisesta äänestäsi.
 
-{:break}
+<br/>
+<br/>
+<br/>
+
 ### Ota haltuun omat suosikkikappaleesi
 Saat itse valita, mitä kappaleita haluat laulaa. Niiden pohjalta tutkaillaan erilaisia laulutyylejä ja ihmisäänen mahdollisuuksia.
 
