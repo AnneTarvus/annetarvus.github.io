@@ -2,12 +2,10 @@
 layout: content
 title: "CV"
 permalink: /cv
-image: /assets/img/leikattu2.webp
-imageHeight: 400px
-caption: "Täällä pääset tutustumaan mun työnäytteisiin sekä työ- ja koulutustaustaan. Sivun lopusta saat ladattua mun CV:n."
 ---
 
-<iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<!-- <iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe> -->
+<iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" frameborder="0" allowfullscreen></iframe>
 
 # Koulutus
 * **2021-2023** Draamakasvatuksen aineopinnot, Jyväskylän yliopisto
