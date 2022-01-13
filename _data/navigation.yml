@@ -1,13 +1,13 @@
 pages:
 
 - title: Anne
-  url: anne.html
+  url: anne
 
 - title: CV
-  url: cv.html
+  url: cv
 
 - title: Kuvia
-  url: kuvia.html
+  url: kuvia
 
 - title: Laulunopetus
-  url: laulunopetus.html
+  url: laulunopetus
