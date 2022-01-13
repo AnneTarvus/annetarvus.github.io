@@ -7,8 +7,12 @@ layout: content
         <div class="pictures">
         {% for image in imageGallery.images %}
         <div class="img-hover-zoom">
-            <a target="_blank" href="assets/img/{{image.image}}.jpg">
-                <img class="img" src="assets/img/{{image.image}}_thumbnail.jpg" alt="Anne">
+            <a target="_blank" href="assets/gallery/{{image.image}}.jpg">
+                <img class="img"
+                     src="assets/gallery/{{image.image}}_thumbnail.jpg"
+                     alt="Anne"
+                     style="object-position: {{image.position}};"
+                >
             </a>
         </div>
         {% endfor %}

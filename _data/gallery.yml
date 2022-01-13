@@ -5,4 +5,23 @@ images:
     - image: 1
     - image: 2
     - image: 3
+      position: center top
     - image: 4
+      position: center top
+    - image: 5
+      position: center top
+    - image: 6
+    - image: 7
+  - 2:
+    caption: "Kuvat: Tuisku Jarva / Tuiskuva Photography @tuiskuva"
+    images:
+    - image: 202110290139
+    - image: 202110290258
+    - image: 202110290332
+  - 3:
+    caption: "Kuvat: Kiki Söderström"
+    images:
+    - image: photo20211208143308
+    - image: photo20211208143310
+    - image: photo20211208143315
+    - image: photo20211208143328

@@ -133,13 +133,15 @@ h3 {
 }
 
 .img {
+  height: 150px;
   width: 150px;
+  // object-position: center top;
 }
 
 .img-hover-zoom {
   margin: 0 5% 5% 0;
-  height: 200px;
   width: 150px;
+  height: 150px;
   overflow: hidden;
 }
 
@@ -150,25 +152,6 @@ h3 {
 
 .img-hover-zoom:hover img {
   transform: scale(1.2);
-}
-
-.columns {
-  column-count: 2;
-}
-
-.columns > h3 {
-    -webkit-column-break-inside: avoid;
-     -webkit-column-break-after: avoid;
-              page-break-inside: avoid;
-                   break-inside: avoid;
-                    break-after: avoid;
-  break-before: auto;
-}
-
-.columns > p {
-  -webkit-column-break-inside: avoid;
-            page-break-inside: avoid;
-                 break-inside: avoid;
 }
 
 @media (max-width: 500px) {
@@ -190,6 +173,9 @@ h3 {
     align-items: center;
     justify-content: space-between;
   }
+  .hero-image {
+    background-position: center center;
+  }
   #links {
     overflow: hidden;
     display: none;
@@ -205,5 +191,9 @@ h3 {
     background-color: #333;
     margin: 3px 0;
     transition: 0.4s;
+  }
+
+  #logo {
+    width: 100px;
   }
 }
