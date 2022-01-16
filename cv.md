@@ -5,7 +5,7 @@ permalink: /cv
 ---
 
 <!-- <iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe> -->
-<iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" frameborder="0" allowfullscreen></iframe>
+<iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" frameborder="0" allow="gyroscope" allowfullscreen></iframe>
 
 # Koulutus
 * **2021-2023** Draamakasvatuksen aineopinnot, Jyväskylän yliopisto
