@@ -2,8 +2,8 @@ pages:
 - title: Etusivu
   url: /
 
-- title: Anne
-  url: anne
+- title: Portfolio
+  url: portfolio
 
 - title: CV
   url: cv
