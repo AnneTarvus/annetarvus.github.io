@@ -5,17 +5,30 @@ permalink: /cv
 ---
 # CV
 
-<!-- <iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe> -->
-<iframe class="showreel" src="https://www.youtube.com/embed/98BxLvTSQhU" frameborder="0" allow="gyroscope" allowfullscreen></iframe>
-
 ## Koulutus
-* **2021-2023** Draamakasvatuksen aineopinnot, Jyväskylän yliopisto
+* **2021-2023** Draamakasvatuksen aineopinnot / Jyväskylän avoin yliopisto
 * **2019-2021** Polkuopinnot, musiikkiteatteri / Tampereen avoin ammattikorkeakoulu
 * **2013-2019** FM, ranskan kieli / Tampereen yliopisto
-* **2011-2012** Draamakasvatuksen perusopinnot, Jyväskylän yliopisto
+* **2011-2012** Draamakasvatuksen perusopinnot / Jyväskylän avoin yliopisto
 * **2015-2016** Näyttelijäntyön jatkolinja / Suomen Teatteriopisto
 * **2014-2015** Musiikkiteatteripainotteinen näyttelijäntyön peruslinja / Suomen Teatteriopisto
 * **2007-2010** Ylioppilastutkinto, musiikkilinja / Cygnaeus-lukio
+
+## Kurssit
+* **2022** Estill in Action - Application of Estill Figures, opettajana Tim Richards
+* **2022** Luentateatteri, Tampereen avoin yliopisto
+* **2022** Löydä oma lauluvoimasi -intensiivikurssi, opettajana Arla Salo
+* **2022** Ammattina ääninäyttelijä, opettajana Mia Renwall
+* **2021** Löydä oma lauluvoimasi, opettajana Arla Salo
+* **2021** Puhetekniikan ja äänenkäytön perusteet, Tampereen avoin yliopisto
+
+## Laulu
+* Ääniala: mezzosopraano
+* CVT, opettajana Petra Karjalainen 2014-2018
+* Estill Voice Training, opettajana Arla Salo 2014-2015, 2020-
+
+## Ääninäytteleminen
+* **2022** Professori Pörröpää ja lukukupla -oppimispeli. Rooli: kaikki roolit - Jyväskylän yliopisto
 
 ## Elokuva- ja TV-työt
 * **2021** Suden Hetki - Surunsyömä (musiikkivideo) - Ohj. Atte Santala
@@ -24,11 +37,8 @@ permalink: /cv
 * **2018** Tapahtukoon sinun tahtosi - Ohj. Emma-Lotta Kiuru / TAMK
 * **2017** Gone to Mexico - Ohj. Marko Möttönen / Voionmaan opisto
 * **2017** Ahdistus - Ohj. Eeva Lahtinen / TAMK ja Taimi Ry
-* **2016** Vihreät valot - väärät bileet - Aitomedia & Yleiradio Oy
+* **2016** Vihreät valot - väärät bileet - Aitomedia & Yleisradio Oy
 * **2015** Poliisit - Kotihälytys - Aitomedia
-
-## Ääninäytteleminen
-* **2022** Professori Pörröpää ja lukukupla -oppimispeli. Rooli: kaikki roolit - Jyväskylän yliopisto
 
 ## Teatteriroolit
 * **2022** Väkivaltakunta. Rooli: presidentti, ensemble - ohj. Arvo Jean-Michael Saarinen / Tampereen ylioppilasteatteri
@@ -51,14 +61,6 @@ permalink: /cv
 * **2013** Esitystalous. Rooli: Tanja Friman - ohj. Kaisa Nissi / Jyväskylän ylioppilasteatteri
 * **2012** Paljaat. Rooli: useita rooleja - ohj. Kaisa Nissi / Jyväskylän ylioppilasteatteri
 
-## Kurssit
-* **2022** Luentateatteri, Tampereen avoin yliopisto
-* **2022** Löydä oma lauluvoimasi -intensiivikurssi, opettajana Arla Salo
-* **2022** Ammattina ääninäyttelijä, opettajana Mia Renwall
-* **2021** Löydä oma lauluvoimasi, opettajana Arla Salo
-* **2021** Puhetekniikan ja äänenkäytön perusteet, Tampereen avoin yliopisto
 
-## Laulu
-* Ääniala: mezzosopraano
-* CVT, opettajana Petra Karjalainen 2014-2018
-* Estill Voice Training, opettajana Arla Salo 2014-2015, 2021-
+
+

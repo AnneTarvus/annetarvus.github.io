@@ -152,6 +152,16 @@ h3 {
   column-count: 2;
 }
 
+.portfoliohorizontal {
+  height: 640px;
+  width: 960px;
+}
+
+.portfoliovertical {
+  height: 960px;
+  width: 640px;
+}
+
 @media (max-width: 500px) {
   .wrapper {
     flex-direction: column;
