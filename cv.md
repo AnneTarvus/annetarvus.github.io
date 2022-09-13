@@ -25,7 +25,7 @@ permalink: /cv
 ## Laulu
 * Ääniala: mezzosopraano
 * CVT, opettajana Petra Karjalainen 2014-2018
-* Estill Voice Training, opettajana Arla Salo 2014-2015, 2020-
+* Estill Voice Training, opettajana Arla Salo 2014-2015, 2021-
 
 ## Ääninäytteleminen
 * **2022** Professori Pörröpää ja lukukupla -oppimispeli. Rooli: kaikki roolit - Jyväskylän yliopisto
